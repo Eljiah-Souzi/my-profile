@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: grey;
+  font-family: times new romans;
+}
+
+h1, h2, h3 {
+  color: green;
+  font-family: verdana;
+  font-weight: 150;
+  letter-spacing: 5px 
+  font-size: 30px;
+}
+
+a {
+   font-size: 16px;
+   font-family: Roboto;
+   text-decoration: none;
+   color: #a61f06;
+   font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+
+/custom design with class/
+
+
+
+.container {
+   width: 650px;
+   margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.card-white {
+  background-color: #02023b;
+  padding: 35px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
